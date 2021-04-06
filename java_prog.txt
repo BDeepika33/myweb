@@ -1,6 +1,7 @@
-class {
+class Devops{
 public static void main(String args[])
 {
-system.out.println("hey i am learning devops")
+System.out.println("hey i am learning devops");
+System.out.println("this line i am adding in vi editor and wants to check the update in remote and local repositories");
 }
 }
