@@ -27,13 +27,13 @@
 	
 	<distributionManagement>
 		 <snapshotRepository>
-		    <id>nexusRepo</id>
-		    <url>http://3.88.0.243:8081/repository/s1/</url>
+		    <id>nexus-repo</id>
+		    <url>http://13.213.58.102:8081/repository/snapshot/</url>
 		 </snapshotRepository>
 		
 		<repository>
-		    <id>nexusRepo</id>
-		    <url>http://3.88.0.243:8081/repository/r1/</url>
+		    <id>nexus-repo</id>
+		    <url>http://13.213.58.102:8081/repository/releases/</url>
 		</repository>
   	</distributionManagement>
 	
