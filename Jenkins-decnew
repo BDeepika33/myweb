@@ -7,7 +7,7 @@ pipeline{
     stages{
         stage("Git Checkout"){
             steps{
-                git credentialsId: 'deep123', url: 'https://github.com/BDeepika33/myweb.git'
+                git credentialsId: 'deep_cred_id', url: 'https://github.com/BDeepika33/myweb.git'
                 
             }
         }
